@@ -1,0 +1,200 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<XMI xmi.version = "1.1" xmlns:UML="href://org.omg/UML/1.3" timestamp = "Mon Dec 08 14:28:19 2014">
+<XMI.header>
+  <XMI.documentation>
+    <XMI.owner></XMI.owner>
+    <XMI.contact></XMI.contact>
+    <XMI.exporter>StarUML.XMI-Addin</XMI.exporter>
+    <XMI.exporterVersion>1.0</XMI.exporterVersion>
+    <XMI.notice></XMI.notice>
+  </XMI.documentation>
+  <XMI.metamodel xmi.name = "UML" xmi.version = "1.3"/>
+ </XMI.header>
+<XMI.content>
+<UML:Model xmi.id="UMLProject.1">
+  <UML:Namespace.ownedElement>
+    <UML:Model xmi.id="UMLModel.2" name="Use Case View" visibility="public" isSpecification="false" namespace="UMLProject.1" isRoot="false" isLeaf="false" isAbstract="false"/>
+    <UML:Model xmi.id="UMLModel.3" name="Logical View" visibility="public" isSpecification="false" namespace="UMLProject.1" isRoot="false" isLeaf="false" isAbstract="false">
+      <UML:Namespace.ownedElement>
+        <UML:Class xmi.id="UMLClass.4" name="TCamera" visibility="public" isSpecification="false" namespace="UMLModel.3" isRoot="false" isLeaf="false" isAbstract="false" participant="UMLAssociationEnd.74" isActive="false">
+          <UML:Classifier.feature>
+            <UML:Attribute xmi.id="UMLAttribute.5" name="EtatCamere" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.80" owner="UMLClass.4"/>
+            <UML:Operation xmi.id="UMLOperation.6" name="EnvoyerVideo" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.4">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.7" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.6" type="X.80"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="UMLOperation.8" name="RecevoirVideo" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.4">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.9" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.8" type="X.80"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+          </UML:Classifier.feature>
+        </UML:Class>
+        <UML:Class xmi.id="UMLClass.10" name="TCommande" visibility="public" isSpecification="false" namespace="UMLModel.3" isRoot="false" isLeaf="false" isAbstract="false" participant="UMLAssociationEnd.59 UMLAssociationEnd.61 UMLAssociationEnd.64 UMLAssociationEnd.67 UMLAssociationEnd.70" isActive="false">
+          <UML:Classifier.feature>
+            <UML:Attribute xmi.id="UMLAttribute.11" name="Commande" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.82" owner="UMLClass.10"/>
+            <UML:Operation xmi.id="UMLOperation.12" name="EnvoyerCMD" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.10">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.13" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.12" type="X.82"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="UMLOperation.14" name="RecevoirCMD" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.10">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.15" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.14" type="X.82"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="UMLOperation.16" name="TraiterCMD" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.10">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.17" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.16" type="X.80"/>
+                <UML:Parameter xmi.id="UMLParameter.18" name="Commande" visibility="public" isSpecification="false" kind="in" behavioralFeature="UMLOperation.16" type="X.82"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+          </UML:Classifier.feature>
+        </UML:Class>
+        <UML:Class xmi.id="UMLClass.19" name="TMoteurCC" visibility="public" isSpecification="false" namespace="UMLModel.3" isRoot="false" isLeaf="false" isAbstract="false" participant="UMLAssociationEnd.68" isActive="false">
+          <UML:Classifier.feature>
+            <UML:Attribute xmi.id="UMLAttribute.20" name="Puissance" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.80" owner="UMLClass.19"/>
+            <UML:Attribute xmi.id="UMLAttribute.21" name="EtatMoteur" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.80" owner="UMLClass.19"/>
+            <UML:Operation xmi.id="UMLOperation.22" name="TournerMoteur" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.19">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.23" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.22" type="X.80"/>
+                <UML:Parameter xmi.id="UMLParameter.24" name="Puissance" visibility="public" isSpecification="false" kind="in" behavioralFeature="UMLOperation.22" type="X.80"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+          </UML:Classifier.feature>
+        </UML:Class>
+        <UML:Class xmi.id="UMLClass.25" name="TServoMoteur" visibility="public" isSpecification="false" namespace="UMLModel.3" isRoot="false" isLeaf="false" isAbstract="false" participant="UMLAssociationEnd.65" isActive="false">
+          <UML:Classifier.feature>
+            <UML:Attribute xmi.id="UMLAttribute.26" name="NbServo" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.80" owner="UMLClass.25"/>
+            <UML:Attribute xmi.id="UMLAttribute.27" name="NumeroServo" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.80" owner="UMLClass.25"/>
+            <UML:Attribute xmi.id="UMLAttribute.28" name="Angle" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.80" owner="UMLClass.25"/>
+            <UML:Operation xmi.id="UMLOperation.29" name="BougerServo" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.25">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.30" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.29" type="X.80"/>
+                <UML:Parameter xmi.id="UMLParameter.31" name="NumeroServo" visibility="public" isSpecification="false" kind="in" behavioralFeature="UMLOperation.29" type="X.80"/>
+                <UML:Parameter xmi.id="UMLParameter.32" name="Angle" visibility="public" isSpecification="false" kind="in" behavioralFeature="UMLOperation.29" type="X.80"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+          </UML:Classifier.feature>
+        </UML:Class>
+        <UML:Class xmi.id="UMLClass.33" name="TAltitude" visibility="public" isSpecification="false" namespace="UMLModel.3" isRoot="false" isLeaf="false" isAbstract="false" participant="UMLAssociationEnd.77" isActive="false">
+          <UML:Classifier.feature>
+            <UML:Attribute xmi.id="UMLAttribute.34" name="Altitude" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.89" owner="UMLClass.33"/>
+            <UML:Operation xmi.id="UMLOperation.35" name="TraiterAltitude" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.33">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.36" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.35" type="X.89"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+          </UML:Classifier.feature>
+        </UML:Class>
+        <UML:Class xmi.id="UMLClass.37" name="TPositionAvion" visibility="public" isSpecification="false" namespace="UMLModel.3" isRoot="false" isLeaf="false" isAbstract="false" participant="UMLAssociationEnd.62" isActive="false">
+          <UML:Classifier.feature>
+            <UML:Attribute xmi.id="UMLAttribute.38" name="InclinasonHorizontale" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.89" owner="UMLClass.37"/>
+            <UML:Attribute xmi.id="UMLAttribute.39" name="InclinasonVerticale" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.89" owner="UMLClass.37"/>
+            <UML:Attribute xmi.id="UMLAttribute.40" name="Position" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.80" owner="UMLClass.37"/>
+            <UML:Operation xmi.id="UMLOperation.41" name="LireCapteur" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.37">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.42" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.41" type="X.89"/>
+                <UML:Parameter xmi.id="UMLParameter.43" name="Position" visibility="public" isSpecification="false" kind="in" behavioralFeature="UMLOperation.41" type="X.80"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+          </UML:Classifier.feature>
+        </UML:Class>
+        <UML:Class xmi.id="UMLClass.44" name="TAffichage" visibility="public" isSpecification="false" namespace="UMLModel.3" isRoot="false" isLeaf="false" isAbstract="false" participant="UMLAssociationEnd.71 UMLAssociationEnd.73 UMLAssociationEnd.76" isActive="false">
+          <UML:Classifier.feature>
+            <UML:Attribute xmi.id="UMLAttribute.45" name="EtatAffichage" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.80" owner="UMLClass.44"/>
+            <UML:Operation xmi.id="UMLOperation.46" name="AffichageAltitude" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.44">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.47" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.46" type="X.80"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="UMLOperation.48" name="AffichagePositionAvion" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.44">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.49" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.48" type="X.80"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="UMLOperation.50" name="AffichageVideo" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.44">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.51" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.50" type="X.80"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+          </UML:Classifier.feature>
+        </UML:Class>
+        <UML:Class xmi.id="UMLClass.52" name="TManetteCommande" visibility="public" isSpecification="false" namespace="UMLModel.3" isRoot="false" isLeaf="false" isAbstract="false" participant="UMLAssociationEnd.58" isActive="false">
+          <UML:Classifier.feature>
+            <UML:Attribute xmi.id="UMLAttribute.53" name="Commande" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.82" owner="UMLClass.52"/>
+            <UML:Operation xmi.id="UMLOperation.54" name="EnvoyerCMD" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.52">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.55" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.54" type="X.82"/>
+                <UML:Parameter xmi.id="UMLParameter.56" name="Commande" visibility="public" isSpecification="false" kind="in" behavioralFeature="UMLOperation.54" type="X.82"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+          </UML:Classifier.feature>
+        </UML:Class>
+        <UML:Association xmi.id="UMLAssociation.57" name="" visibility="public" isSpecification="false" namespace="UMLModel.3">
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.58" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.57" type="UMLClass.52"/>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.59" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="composite" targetScope="instance" changeability="changeable" association="UMLAssociation.57" type="UMLClass.10"/>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Association xmi.id="UMLAssociation.60" name="" visibility="public" isSpecification="false" namespace="UMLModel.3">
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.61" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.60" type="UMLClass.10"/>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.62" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="composite" targetScope="instance" changeability="changeable" association="UMLAssociation.60" type="UMLClass.37"/>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Association xmi.id="UMLAssociation.63" name="" visibility="public" isSpecification="false" namespace="UMLModel.3">
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.64" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.63" type="UMLClass.10"/>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.65" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="composite" targetScope="instance" changeability="changeable" association="UMLAssociation.63" type="UMLClass.25"/>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Association xmi.id="UMLAssociation.66" name="" visibility="public" isSpecification="false" namespace="UMLModel.3">
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.67" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.66" type="UMLClass.10"/>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.68" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="composite" targetScope="instance" changeability="changeable" association="UMLAssociation.66" type="UMLClass.19"/>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Association xmi.id="UMLAssociation.69" name="" visibility="public" isSpecification="false" namespace="UMLModel.3">
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.70" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.69" type="UMLClass.10"/>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.71" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="composite" targetScope="instance" changeability="changeable" association="UMLAssociation.69" type="UMLClass.44"/>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Association xmi.id="UMLAssociation.72" name="" visibility="public" isSpecification="false" namespace="UMLModel.3">
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.73" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.72" type="UMLClass.44"/>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.74" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="composite" targetScope="instance" changeability="changeable" association="UMLAssociation.72" type="UMLClass.4"/>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Association xmi.id="UMLAssociation.75" name="" visibility="public" isSpecification="false" namespace="UMLModel.3">
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.76" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.75" type="UMLClass.44"/>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.77" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="composite" targetScope="instance" changeability="changeable" association="UMLAssociation.75" type="UMLClass.33"/>
+          </UML:Association.connection>
+        </UML:Association>
+      </UML:Namespace.ownedElement>
+    </UML:Model>
+    <UML:Model xmi.id="UMLModel.78" name="Component View" visibility="public" isSpecification="false" namespace="UMLProject.1" isRoot="false" isLeaf="false" isAbstract="false"/>
+    <UML:Model xmi.id="UMLModel.79" name="Deployment View" visibility="public" isSpecification="false" namespace="UMLProject.1" isRoot="false" isLeaf="false" isAbstract="false"/>
+    <UML:DataType xmi.id="X.80" name="Entier" visibility="public" isSpecification="false" isRoot="false" isLeaf="false" isAbstract="false"/>
+    <UML:DataType xmi.id="X.82" name="String" visibility="public" isSpecification="false" isRoot="false" isLeaf="false" isAbstract="false"/>
+    <UML:DataType xmi.id="X.89" name="Flottant" visibility="public" isSpecification="false" isRoot="false" isLeaf="false" isAbstract="false"/>
+  </UML:Namespace.ownedElement>
+</UML:Model>
+<UML:TaggedValue xmi.id="X.81" tag="ordering" value="unordered" modelElement="UMLAttribute.5"/>
+<UML:TaggedValue xmi.id="X.83" tag="ordering" value="unordered" modelElement="UMLAttribute.11"/>
+<UML:TaggedValue xmi.id="X.84" tag="ordering" value="unordered" modelElement="UMLAttribute.20"/>
+<UML:TaggedValue xmi.id="X.85" tag="ordering" value="unordered" modelElement="UMLAttribute.21"/>
+<UML:TaggedValue xmi.id="X.86" tag="ordering" value="unordered" modelElement="UMLAttribute.26"/>
+<UML:TaggedValue xmi.id="X.87" tag="ordering" value="unordered" modelElement="UMLAttribute.27"/>
+<UML:TaggedValue xmi.id="X.88" tag="ordering" value="unordered" modelElement="UMLAttribute.28"/>
+<UML:TaggedValue xmi.id="X.90" tag="ordering" value="unordered" modelElement="UMLAttribute.34"/>
+<UML:TaggedValue xmi.id="X.91" tag="ordering" value="unordered" modelElement="UMLAttribute.38"/>
+<UML:TaggedValue xmi.id="X.92" tag="ordering" value="unordered" modelElement="UMLAttribute.39"/>
+<UML:TaggedValue xmi.id="X.93" tag="ordering" value="unordered" modelElement="UMLAttribute.40"/>
+<UML:TaggedValue xmi.id="X.94" tag="ordering" value="unordered" modelElement="UMLAttribute.45"/>
+<UML:TaggedValue xmi.id="X.95" tag="ordering" value="unordered" modelElement="UMLAttribute.53"/>
+</XMI.content>
+</XMI>

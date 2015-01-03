@@ -1,0 +1,89 @@
+Netlist
+
+Exported from SchematicDrone.sch at 2014-12-01 17:27:32
+
+EAGLE Version 6.5.0 Copyright (c) 1988-2013 CadSoft
+
+Net      Part     Pad      Pin        Sheet
+
++3V3     ALTIMETRE 4        4          1
+
++5V      SERVO-MOTEUR_1 2        2          1
+         SERVO-MOTEUR_2 2        2          1
+         SERVO-MOTEUR_3 2        2          1
+         SERVO-MOTEUR_4 2        2          1
+         SERVO-MOTEUR_5 2        2          1
+         SERVO-MOTEUR_6 2        2          1
+
+GPIO1    GPIO     1        1          1
+
+GPIO2    GPIO     2        2          1
+
+GPIO3    ALTIMETRE 1        1          1
+         GPIO     3        3          1
+         GYROSCOPE 4        4          1
+         GYROSCOPE 5        5          1
+
+GPIO4    GPIO     4        4          1
+
+GPIO5    ALTIMETRE 2        2          1
+         GPIO     5        5          1
+         GYROSCOPE 3        3          1
+
+GPIO6    GPIO     6        6          1
+
+GPIO7    GPIO     7        7          1
+
+GPIO8    GPIO     8        8          1
+
+GPIO9    GPIO     9        9          1
+
+GPIO10   GPIO     10       10         1
+
+GPIO11   GPIO     11       11         1
+         SERVO-MOTEUR_1 3        3          1
+
+GPIO12   GPIO     12       12         1
+
+GPIO13   GPIO     13       13         1
+
+GPIO14   GPIO     14       14         1
+
+GPIO15   GPIO     15       15         1
+
+GPIO16   GPIO     16       16         1
+
+GPIO17   GPIO     17       17         1
+
+GPIO18   GPIO     18       18         1
+
+GPIO19   GPIO     19       19         1
+         SERVO-MOTEUR_2 3        3          1
+
+GPIO20   GPIO     20       20         1
+
+GPIO21   GPIO     21       21         1
+         SERVO-MOTEUR_3 3        3          1
+
+GPIO22   GPIO     22       22         1
+         SERVO-MOTEUR_5 3        3          1
+
+GPIO23   GPIO     23       23         1
+         SERVO-MOTEUR_4 3        3          1
+
+GPIO24   GPIO     24       24         1
+         SERVO-MOTEUR_6 3        3          1
+
+GPIO25   GPIO     25       25         1
+
+GPIO26   GPIO     26       26         1
+
+PE       ALTIMETRE 3        3          1
+         GYROSCOPE 8        8          1
+         SERVO-MOTEUR_1 1        1          1
+         SERVO-MOTEUR_2 1        1          1
+         SERVO-MOTEUR_3 1        1          1
+         SERVO-MOTEUR_4 1        1          1
+         SERVO-MOTEUR_5 1        1          1
+         SERVO-MOTEUR_6 1        1          1
+

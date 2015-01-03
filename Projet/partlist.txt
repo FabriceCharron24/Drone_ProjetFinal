@@ -1,0 +1,19 @@
+Partlist
+
+Exported from SchematicDrone.sch at 2014-12-01 17:27:49
+
+EAGLE Version 6.5.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part           Value          Device        Package  Library  Sheet
+
+ALTIMETRE                     PINHD-1X5     1X05     1mylib   1
+GPIO                          PINHD-2X13/90 2X13/90  1mylib   1
+GYROSCOPE                     PINHD-1X8     1X08     1mylib   1
+SERVO-MOTEUR_1                PINHD-1X3/90  1X03/90  1mylib   1
+SERVO-MOTEUR_2                PINHD-1X3/90  1X03/90  1mylib   1
+SERVO-MOTEUR_3                PINHD-1X3/90  1X03/90  1mylib   1
+SERVO-MOTEUR_4                PINHD-1X3/90  1X03/90  1mylib   1
+SERVO-MOTEUR_5                PINHD-1X3/90  1X03/90  1mylib   1
+SERVO-MOTEUR_6                PINHD-1X3/90  1X03/90  1mylib   1
